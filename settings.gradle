@@ -1,0 +1,3 @@
+rootProject.name = 'performanceoptimizer'
+include 'src/main/java'
+include 'src/main/resources'

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "performanceoptimizer",
+  "version": "${version}",
+  "name": "Performance Optimizer",
+  "description": "Optimizes performance in heavy modpacks by throttling entity and block entity ticking.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/PerformanceOptimizer"
+  },
+  "license": "MIT",
+  "icon": "assets/performanceoptimizer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.performanceoptimizer.PerformanceOptimizer"
+    ]
+  },
+  "mixins": [
+    "performanceoptimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
